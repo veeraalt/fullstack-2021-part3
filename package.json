@@ -8,10 +8,6 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/veeraalt/fullstack-2021-part3.git"
-  },
   "author": "Veera Alt",
   "license": "MIT",
   "dependencies": {
@@ -21,5 +17,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }
